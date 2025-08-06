@@ -131,7 +131,7 @@ for name, model in models.items():
 # ============================================
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 # Custom styles
 custom_css = {
     'container': {'padding': '20px', 'backgroundColor': '#f8f9fa'},
